@@ -1,0 +1,103 @@
+.id-container{
+    background-color: white;
+    /* En figma el width x height es 988 x 618
+    entonces usaremos vw y mantener la proporcion 1.6 width:1 height  
+    Si width 100vw entonces 1 / 1.6 para height , 62.5vw al height*/
+    width: 100vw;
+    height: 62.5vw;
+
+    border-radius: 4vw;
+    box-shadow: 0px 0px 5px black;
+    
+    /* Aplicamos padding a TODO para que se estandarice */
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 5vw;
+}
+
+
+.flex-4geeks{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10vw;
+}
+
+
+.student{
+    background-color: #eef9fe;
+    border-radius: 1vw;
+    padding: 1.5vw;
+}
+
+.font-color{
+    color: #0097cf;
+}
+
+.flex-image-name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-image-name h1{
+    text-align: center; 
+    color: #0097cf;
+    font-weight: 650;
+    font-size: 4.7vw;
+    letter-spacing: 0.1vw;
+}
+
+.flex-image-name h1 > span{
+    color: #fbb417;
+}
+
+.flex-image-name h2{
+    color: black;
+    font-size: 4.7vw;
+    margin-top: 3vw;
+    font-weight: 450;
+    letter-spacing: 0.1vw;
+}
+
+.flex-image-name p{
+    color: #0097cf;
+    background-color: #eef9fe;
+    margin-top: 3vw;
+    font-weight: 700;
+    font-size: 2vw;
+    padding: 1.5vw 3vw;
+    border-radius: 0.4vw; 
+}
+
+.bottom-section{
+    display: flex;
+    align-items: baseline;
+}
+
+.bottom-section div{
+    height: 12vw;
+    width: 58vw;
+    display: flex;
+}
+
+.bottom-section p{ 
+    position: relative;
+    color: #01445d;
+    font-weight: 500;
+}
+
+.thin-bar{
+    display: block;
+    height: 100%;
+    width: 1%;
+    background-color: #0097cf;
+    margin-right: 5%;
+}
+
+.fat-bar{
+    display: block;
+    height: 100%;
+    width: 1.7%;
+    background-color: #0097cf;
+    margin-right: 5%;
+}
+
