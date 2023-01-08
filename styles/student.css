@@ -5,8 +5,11 @@
     Si width 100vw entonces 1 / 1.6 para height , 62.5vw al height*/
     width: 100vw;
     height: 62.5vw;
-
+    
     border-radius: 4vw;
+
+    /* Bow Shadow para que se pueda ver 
+    donde empieza el StudentID mas claramente */
     box-shadow: 0px 0px 5px black;
     
     /* Aplicamos padding a TODO para que se estandarice */
@@ -15,50 +18,49 @@
     padding-top: 5vw;
 }
 
-
-.flex-4geeks{
+.id-container > div {
     display: flex;
+}
+
+.id-container div > h1 {
+    color: #0097cf;
+}
+
+/* Top Section Styling  */
+.top-section{
     justify-content: space-between;
     font-size: 10vw;
 }
 
-
-.student{
+.student-background{
     background-color: #eef9fe;
     border-radius: 1vw;
     padding: 1.5vw;
 }
 
-.font-color{
-    color: #0097cf;
-}
 
-.flex-image-name{
-    display: flex;
-    justify-content: space-between;
-}
+/*  Mid Section Styling  */
 
-.flex-image-name h1{
+.mid-section div > h1{
     text-align: center; 
-    color: #0097cf;
     font-weight: 650;
     font-size: 4.7vw;
     letter-spacing: 0.1vw;
 }
 
-.flex-image-name h1 > span{
+.mid-section h1 > span{
     color: #fbb417;
 }
 
-.flex-image-name h2{
-    color: black;
+.mid-section div > h2 {
+    color: rgb(0, 0, 0);
     font-size: 4.7vw;
     margin-top: 3vw;
-    font-weight: 450;
+    font-weight: 500;
     letter-spacing: 0.1vw;
-}
+  }
 
-.flex-image-name p{
+.mid-section div > p{
     color: #0097cf;
     background-color: #eef9fe;
     margin-top: 3vw;
@@ -68,8 +70,9 @@
     border-radius: 0.4vw; 
 }
 
+/*  Bottom Section Styling  */
+
 .bottom-section{
-    display: flex;
     align-items: baseline;
 }
 
